@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JFS: Where Stories Come to Life</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="hero">
+    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="Bootstrap" width="30">
+        </a>    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#movies">Movies</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#comment">Comments</a></li>
+                <li><a class="dropdown-item" href="#">Music</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Downloads</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-content" id="home">
+      <img src="img/logo.png" alt="" width="10%" class="rotate">
+      <h1 class="hero-title">CINE<span class="hero-subtitle2">SPHERE</span></h1>
+      <p class="hero-subtitle">- Where Stories Comes to Life -</p>
+    </div>
+
+  </div>
+
+  <section class="mov" id="movies">
+    <div class="mov-flex">
+      <a href="#" class="mov-link-carosel">
+        <div id="carouselExampleCaptions" class="carousel slide mov-img" style="width: 78%;">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/main-movies.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/movie-slide1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <a href="#" class="mov-link">
+                  <p style="background-color: rgba(32, 0, 0, 0.6); border-radius: 50px;">Click to view more</p>
+                </a>           
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/movie-slide2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <a href="#" class="mov-link">
+                  <p style="background-color: rgba(32, 0, 0, 0.6); border-radius: 50px;">Click to view more</p>
+                </a>  
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/movie-slide3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <a href="#" class="mov-link">
+                  <p style="background-color: rgba(32, 0, 0, 0.6); border-radius: 50px;">Click to view more</p>
+                </a>  
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/movie-slide4.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <a href="#" class="mov-link">
+                  <p style="background-color: rgba(32, 0, 0, 0.6); border-radius: 50px;">Click to view more</p>
+                </a>  
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/movie-slide5.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <a href="#" class="mov-link">
+                  <p style="background-color: rgba(32, 0, 0, 0.6); border-radius: 50px;">Click to view more</p>
+                </a>  
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/movie-slide6.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <a href="#" class="mov-link">
+                  <p style="background-color: rgba(32, 0, 0, 0.6); border-radius: 50px;">Click to view more</p>
+                </a>  
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </a>
+
+      <div class="mov-right">
+        <a href="#" class="mov-link">
+          <div class="mov-hover">
+            <img src="img/upcoming-movies.jpg" alt="" width="100%" class="mov-img">
+            <p class="mov-text">Click for details<br>on Upcoming movies</p>
+          </div>
+        </a>
+
+        <!-- note, .image = mov-hover, img = mov-img, .content = mov-text -->
+        <div class="mov-right-down">
+          <a href="#" class="mov-link">
+            <div class="mov-hover">
+              <img src="img/movie-review.jpg" alt="" width="100%" class="mov-img">
+              <p class="mov-text">Click to view<br>reviewed movies</p>
+            </div>
+          </a>
+          
+          <a href="#" class="mov-link">
+            <div class="mov-hover">
+              <img src="img/general-news.jpg" alt="" width="100%" class="mov-img">
+              <p class="mov-text">Click to view<br>world updates on movies</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="comment" id="comment">
+    <p class="comment-header">
+      VIEWERS OPINIONS
+    </p>
+
+    <div class="comment-container">
+
+      <div class="comment-col1">
+        <p class="comment-text">
+          "Wow, what an incredible movie! The storytelling<br>
+          was so engaging and kept me hooked<br>
+          from start to finish."<br><br>
+          <span class="comment-name">- MovieLover42 -</span>
+        </p>
+        <p class="comment-text">
+          "I was blown away by the stunning visuals<br>
+          and attention to detail. A true<br>
+          feast for the eyes!"<br><br>
+          <span class="comment-name">- VisualEnthusiast91 -</span>
+        </p>
+      </div>
+
+      <div class="comment-col2">
+        <p class="comment-text">
+          "I can't stop thinking about the thought-provoking<br>
+          themes and messages woven throughout the film.<br>
+          It really made me reflect."<br><br>
+          <span class="comment-name">- ReflectiveViewer -</span>
+        </p>
+      </div>
+      <div class="comment-col3">
+        <p class="comment-text">
+          "I was on the edge of my seat during the<br>
+          intense action sequences. The<br>
+          adrenaline rush was real!"<br><br>
+          <span class="comment-name">- AdrenalineJunkie -</span>
+        </p>
+        <p class="comment-text">
+          "Bravo to the writing team for crafting a script<br>
+          that was both intelligent and accessible.<br>
+          It's a rare combination."<br><br>
+          <span class="comment-name">- IntelligentViewer -</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="more-comment">
+      <p class="more-comment-header">
+        Reading your comments gives us great joy and helps us know how we can do better.<br>
+        Kindly send in your comments today.
+      </p>
+      <div class="input-group more-comment-form">
+        <span class="input-group-text">Comment</span>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+      </div>
+      <button type="button" class="btn btn-outline-light">Submit</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-row1">
+      <br><br><img src="img/logo.png" alt="" width="60" height="50">
+      <p>
+        Designed and built by JFS<br>
+        CINESPHERE <span>&copy;</span> 2023
+      </p>
+    </div>
+
+    <div class="footer-row2">
+      <br><strong class="footer-head">Contact Information:</strong><br><br>
+      <a href="#home" class="footer-flex-link">CINESPHERE</a><br>
+      <span class="footer-text">Kwara, Ilorin. Nigeria</span><br>
+      <span class="footer-text">07054009139</span><br>
+      <a href="mailto:agboolaferanmi18@gmail.com" class="footer-flex-link" target="_blank">agboolaferanmi18@gmail.com</a><br>
+    </div>
+
+    <div class="footer-row3">
+      <br><strong class="footer-head">Navigation Links:</strong><br><br>
+      <a href="#home" class="footer-flex-link">Home</a><br>
+      <a href="#movies" class="footer-flex-link">Movies</a><br>
+      <a href="#comment" class="footer-flex-link">Comment</a><br>
+      <a href="#portfolio" class="footer-flex-link">Portfolio</a><br>
+    </div>
+
+    <div class="footer-row4">
+      <br><strong class="footer-head">Social Media Links:</strong><br><br>
+      <div class="footer-icons">
+        <a href="https://www.facebook.com/jesuferanmi.agboola/" target="_blank" class="footer-flex-link">
+          <img src="img/fb.png" alt="" width="30">
+        </a><br>
+        <a href="https://wa.me/+2347054009139?text=Hi, this is..." target="_blank" class="footer-flex-link">
+          <img src="img/Whatsapp.png" alt="" width="30">
+        </a><br>
+        <a href="https://twitter.com/_jfstudios" target="_blank" class="footer-flex-link">
+          <img src="img/twitter.png" alt="" width="30">
+        </a><br>
+        <a href="https://github.com/JFstudios03" target="_blank" class="footer-flex-link">
+          <img src="img/github.png" alt="" width="30">
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-row5">
+      <br><strong class="footer-head">Newsletter Signup:</strong><br><br>
+        <form action="" method="post" class="footer-form">
+          <input type="email" name="email" id="" placeholder="Email Address" class="form-input">
+          <button class="form-btn"><img src="img/send.png" alt="" class="form-img"></button>
+        </form>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
