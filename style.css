@@ -11,6 +11,7 @@ body{
     /* overflow: hidden; */
     color: white;
 }
+ 
 /* body::-webkit-scrollbar {
     width: 0%;
 } */
@@ -79,6 +80,10 @@ body{
     margin: 70px auto;
     padding: 70px 100px;
     background-color: rgba(79, 58, 96, 0.3);
+}
+
+.carousel{
+    width: 78%;
 }
 
 .mov-flex{
@@ -346,6 +351,11 @@ body{
         text-align: center;
     }
     
+    .carousel{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
     .mov-flex{
         display: block;
         justify-content: center;
@@ -354,7 +364,7 @@ body{
     }
     
     .mov-right{
-        width: 78%;
+        width: 100%;
         display: block;
     }
     
@@ -409,6 +419,7 @@ body{
     .comment-header{
         font-size: 30px;
         font-weight: bold;
+        transform: translateY(-0px);
     }
     
     .comment-container{
@@ -609,6 +620,11 @@ body{
         text-align: center;
     }
     
+    .carousel{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
     .mov-flex{
         display: block;
         justify-content: center;
@@ -617,7 +633,7 @@ body{
     }
     
     .mov-right{
-        width: 78%;
+        width: 100%;
         display: block;
     }
     
@@ -672,6 +688,7 @@ body{
     .comment-header{
         font-size: 30px;
         font-weight: bold;
+        transform: translateY(-0px);
     }
     
     .comment-container{
@@ -938,6 +955,7 @@ body{
     .comment-header{
         font-size: 30px;
         font-weight: bold;
+        transform: translateY(-0px);
     }
     
     .comment-container{
