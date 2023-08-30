@@ -74,6 +74,53 @@ body{
     border-radius: 0px 30px 30px 0px;
 }
 
+.hero-search{
+    margin-top: 20px;
+}
+
+.hero-search a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-search a:hover{
+    color: rgb(15, 0, 0);
+}
+
+.login-form{
+    /* background-color: rgba(20, 0, 0, 0.7); */
+    background: linear-gradient(rgba(20, 0, 0, 0.7), rgba(40, 0, 0, 0.7));
+    padding: 50px;
+    width: 70%;
+    border-radius: 30px;
+}
+
+.login-form .hero-title{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.login-form .hero-subtitle{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.login-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* margin-top: 50px; */
+    width: 50%;
+    margin: 50px auto 10px;
+}
+
+.login-form input{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .mov{
     /* margin-top: 100px; */
     width: 100%;
@@ -297,11 +344,11 @@ body{
         color: rgb(255, 130, 92);
     }
     
-    .hero{
+    .hero-md{
         background: linear-gradient(rgba(32, 0, 0, 0.904), rgba(0, 0, 0, 0.8)), url(img/Hero-img.jpg);
         background-position: center;
         background-size: cover;
-        min-height: 50vh;
+        min-height: 100vh;
         width: 100%;
         position: relative;
     }
@@ -326,14 +373,14 @@ body{
     }
     
     .hero-title{
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bold;
         margin: 10px 10px;
     }
     
     .hero-subtitle{
-        font-size: 10px;
-        margin-top: 10px;
+        font-size: 15px;
+        margin-top: 20px;
     }
     
     .hero-subtitle2{
@@ -341,6 +388,55 @@ body{
         color: rgb(32, 0, 0);
         padding: 0px 10px;
         border-radius: 0px 30px 30px 0px;
+    }
+
+    .hero-search{
+        margin-top: 5px;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .hero-search a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .hero-search a:hover{
+        color: rgb(15, 0, 0);
+    }
+
+    .login-form{
+        /* background-color: rgba(20, 0, 0, 0.7); */
+        background: linear-gradient(rgba(20, 0, 0, 0.7), rgba(40, 0, 0, 0.7));
+        padding: 10px;
+        width: 70%;
+        border-radius: 30px;
+    }
+    
+    .login-form .hero-title{
+        font-size: 20px;
+        margin: 5px;
+    }
+    
+    .login-form .hero-subtitle{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    
+    .login-form form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        /* margin-top: 50px; */
+        width: 90%;
+        margin: 20px auto 10px;
+    }
+    
+    .login-form input{
+        background-color: white;
+        border: none;
+        padding: 3px 5px;
+        border-radius: 10px;
     }
     
     .mov{
@@ -570,7 +666,7 @@ body{
         background: linear-gradient(rgba(32, 0, 0, 0.904), rgba(0, 0, 0, 0.8)), url(img/Hero-img.jpg);
         background-position: center;
         background-size: cover;
-        min-height: 50vh;
+        min-height: 100vh;
         width: 100%;
         position: relative;
     }
@@ -595,13 +691,13 @@ body{
     }
     
     .hero-title{
-        font-size: 30px;
+        font-size: 50px;
         font-weight: bold;
-        margin: 10px 10px;
+        margin: 30px 10px;
     }
     
     .hero-subtitle{
-        font-size: 10px;
+        font-size: 20px;
         margin-top: 10px;
     }
     
@@ -610,6 +706,55 @@ body{
         color: rgb(32, 0, 0);
         padding: 0px 10px;
         border-radius: 0px 30px 30px 0px;
+    }
+
+    .hero-search{
+        margin-top: 5px;
+        /* font-size: 10px; */
+        padding: 5px;
+    }
+
+    .hero-search a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .hero-search a:hover{
+        color: rgb(15, 0, 0);
+    }
+
+    .login-form{
+        /* background-color: rgba(20, 0, 0, 0.7); */
+        background: linear-gradient(rgba(20, 0, 0, 0.7), rgba(40, 0, 0, 0.7));
+        padding: 10px;
+        width: 90%;
+        border-radius: 30px;
+    }
+    
+    .login-form .hero-title{
+        font-size: 30px;
+        margin: 5px;
+    }
+    
+    .login-form .hero-subtitle{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    
+    .login-form form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        /* margin-top: 50px; */
+        width: 90%;
+        margin: 40px auto 10px;
+    }
+    
+    .login-form input{
+        background-color: white;
+        border: none;
+        padding: 3px 5px;
+        border-radius: 10px;
     }
     
     .mov{
@@ -845,7 +990,7 @@ body{
     }
     
     .hero-content{
-        top: 50%;
+        top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
         position: absolute;
@@ -864,13 +1009,13 @@ body{
     }
     
     .hero-title{
-        font-size: 100px;
+        font-size: 80px;
         font-weight: bold;
         margin: 30px;
     }
     
     .hero-subtitle{
-        font-size: 40px;
+        font-size: 30px;
         margin-top: 40px;
     }
     
@@ -879,6 +1024,54 @@ body{
         color: rgb(32, 0, 0);
         padding: 0px 10px;
         border-radius: 0px 30px 30px 0px;
+    }
+
+    .hero-search{
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    .hero-search a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .hero-search a:hover{
+        color: rgb(15, 0, 0);
+    }
+
+    .login-form{
+        /* background-color: rgba(20, 0, 0, 0.7); */
+        background: linear-gradient(rgba(20, 0, 0, 0.7), rgba(40, 0, 0, 0.7));
+        padding: 20px;
+        width: 90%;
+        border-radius: 30px;
+    }
+    
+    .login-form .hero-title{
+        font-size: 50px;
+        margin: 5px;
+    }
+    
+    .login-form .hero-subtitle{
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    
+    .login-form form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        /* margin-top: 50px; */
+        width: 70%;
+        margin: 40px auto 10px;
+    }
+    
+    .login-form input{
+        background-color: white;
+        border: none;
+        padding: 3px 5px;
+        border-radius: 10px;
     }
     
     .mov{
