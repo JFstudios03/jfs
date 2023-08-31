@@ -64,7 +64,7 @@ body{
 
 .hero-subtitle{
     font-size: 40px;
-    margin-top: 40px;
+    margin: 40px auto 50px;
 }
 
 .hero-subtitle2{
@@ -76,6 +76,12 @@ body{
 
 .hero-search{
     margin-top: 20px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    transition: all ease-in-out 0.5s;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .hero-search a{
@@ -83,8 +89,9 @@ body{
     color: white;
 }
 
-.hero-search a:hover{
+.hero-search:hover{
     color: rgb(15, 0, 0);
+    background-color: white;
 }
 
 .login-form{
@@ -111,7 +118,7 @@ body{
     gap: 10px;
     /* margin-top: 50px; */
     width: 50%;
-    margin: 50px auto 10px;
+    margin: 50px auto 50px;
 }
 
 .login-form input{
@@ -408,7 +415,7 @@ body{
     .login-form{
         /* background-color: rgba(20, 0, 0, 0.7); */
         background: linear-gradient(rgba(20, 0, 0, 0.7), rgba(40, 0, 0, 0.7));
-        padding: 10px;
+        padding: 30px;
         width: 70%;
         border-radius: 30px;
     }
@@ -429,7 +436,7 @@ body{
         gap: 10px;
         /* margin-top: 50px; */
         width: 90%;
-        margin: 20px auto 10px;
+        margin: 20px auto 30px;
     }
     
     .login-form input{
@@ -453,21 +460,26 @@ body{
     }
 
     .mov-flex{
-        display: block;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-        gap: 15px;
     }
     
     .mov-right{
         width: 100%;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
     }
     
     .mov-right-down{
-        display: block;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
+        gap: 20px;
     }
     
     .mov-hover{
@@ -726,7 +738,7 @@ body{
     .login-form{
         /* background-color: rgba(20, 0, 0, 0.7); */
         background: linear-gradient(rgba(20, 0, 0, 0.7), rgba(40, 0, 0, 0.7));
-        padding: 10px;
+        padding: 30px;
         width: 90%;
         border-radius: 30px;
     }
@@ -747,7 +759,7 @@ body{
         gap: 10px;
         /* margin-top: 50px; */
         width: 90%;
-        margin: 40px auto 10px;
+        margin: 40px auto 30px;
     }
     
     .login-form input{
@@ -771,21 +783,26 @@ body{
     }
 
     .mov-flex{
-        display: block;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-        gap: 15px;
     }
     
     .mov-right{
         width: 100%;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
     }
     
     .mov-right-down{
-        display: block;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
+        gap: 20px;
     }
     
     .mov-hover{
@@ -1043,7 +1060,7 @@ body{
     .login-form{
         /* background-color: rgba(20, 0, 0, 0.7); */
         background: linear-gradient(rgba(20, 0, 0, 0.7), rgba(40, 0, 0, 0.7));
-        padding: 20px;
+        padding: 30px;
         width: 90%;
         border-radius: 30px;
     }
@@ -1064,7 +1081,7 @@ body{
         gap: 10px;
         /* margin-top: 50px; */
         width: 70%;
-        margin: 40px auto 10px;
+        margin: 40px auto 30px;
     }
     
     .login-form input{
