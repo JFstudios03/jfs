@@ -14,20 +14,20 @@ document.addEventListener("DOMContentLoaded", function () {
         // For demonstration purposes, consider 'username' and 'password' as valid
         if (username === "" && password === "") {
             // Failed login
-            loginError.textContent = "Invalid username or password.";
+            loginError.textContent = "Invalid login info.";
             loginError.style.color = "rgb(161, 0, 0)";
             loginError.style.backgroundColor = "white";
             loginError.style.padding = "15px";
-            loginError.style.width = "60%";
+            loginError.style.width = "100%";
             loginError.style.borderRadius = "20px";
             loginError.style.margin = "auto";
         } else if (username === "" || password === "") {
             // Failed login
-            loginError.textContent = "Invalid username or password.";
+            loginError.textContent = "Invalid login info.";
             loginError.style.color = "rgb(161, 0, 0)";
             loginError.style.backgroundColor = "white";
             loginError.style.padding = "15px";
-            loginError.style.width = "60%";
+            loginError.style.width = "100%";
             loginError.style.borderRadius = "20px";
             loginError.style.margin = "auto";
         } else {
