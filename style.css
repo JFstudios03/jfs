@@ -303,6 +303,14 @@ body{
     outline: 0;
     border: none;
 }
+/* .error{
+    background-color: white;
+    color: rgb(161, 0, 0);
+    padding: 15px 10px;
+    width: 60%;
+    border-radius: 20px;
+    margin: auto;
+} */
 
 .footer-icons{
     display: flex;

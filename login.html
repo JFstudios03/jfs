@@ -54,16 +54,20 @@
     <div class="hero-content login-form" id="home">
       <h1 class="hero-title">CINE<span class="hero-subtitle2">SPHERE</span></h1>
       <p class="hero-subtitle">- Where Stories Comes to Life -</p>
-      <form action="" method="post">
-        <input type="email" name="Email" id="" placeholder="Email Address">
-        <input type="password" name="password" id="" placeholder="Password">
+      <form action="" method="post" id="loginForm">
+        <input type="email" name="Email" id="email" placeholder="Email Address">
+        <input type="password" name="password" id="pswd" placeholder="Password">
+        <p id="loginError" class="error"></p>
+        <button class="btn btn-outline-light hero-search" type="submit">
+          <a href="main.html" type="submit">Login</a>
+        </button>
       </form>
-      <!-- <button class="btn btn-outline-light hero-search" type="submit"><a href="main.html">Login</a></button> -->
-      <a href="main.html" class="hero-search">Login</a>
+      <!-- <a href="main.html" class="hero-search">Login</a> -->
     </div>
 
   </div>
 
+  <script src="login.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
