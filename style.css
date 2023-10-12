@@ -428,9 +428,13 @@ body{
     .login-form{
         /* background-color: rgba(20, 0, 0, 0.7); */
         background: linear-gradient(rgba(20, 0, 0, 0.7), rgba(40, 0, 0, 0.7));
-        padding: 30px;
-        width: 70%;
+        padding: 10px;
+        width: 90%;
         border-radius: 30px;
+    }
+
+    ::placeholder{
+        font-size: 12px;
     }
     
     .login-form .hero-title{
@@ -455,7 +459,7 @@ body{
     .login-form input{
         background-color: white;
         border: none;
-        padding: 3px 5px;
+        padding: 7px;
         border-radius: 10px;
     }
     
@@ -751,9 +755,13 @@ body{
     .login-form{
         /* background-color: rgba(20, 0, 0, 0.7); */
         background: linear-gradient(rgba(20, 0, 0, 0.7), rgba(40, 0, 0, 0.7));
-        padding: 30px;
+        padding: 10px;
         width: 90%;
         border-radius: 30px;
+    }
+
+    ::placeholder{
+        font-size: 12px;
     }
     
     .login-form .hero-title{
@@ -778,7 +786,7 @@ body{
     .login-form input{
         background-color: white;
         border: none;
-        padding: 3px 5px;
+        padding: 7px;
         border-radius: 10px;
     }
     
@@ -1073,9 +1081,13 @@ body{
     .login-form{
         /* background-color: rgba(20, 0, 0, 0.7); */
         background: linear-gradient(rgba(20, 0, 0, 0.7), rgba(40, 0, 0, 0.7));
-        padding: 30px;
+        padding: 10px;
         width: 90%;
         border-radius: 30px;
+    }
+
+    ::placeholder{
+        font-size: 12px;
     }
     
     .login-form .hero-title{
@@ -1100,7 +1112,7 @@ body{
     .login-form input{
         background-color: white;
         border: none;
-        padding: 3px 5px;
+        padding: 7px;
         border-radius: 10px;
     }
     
