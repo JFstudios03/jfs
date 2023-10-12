@@ -11,8 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const username = usernameInput.value;
         const password = passwordInput.value;
 
-        // For demonstration purposes, consider 'username' and 'password' as valid
-        if (username === "" && password === "") {
+        if (username < 1 && password < 1) {
             // Failed login
             loginError.textContent = "Invalid login info.";
             loginError.style.color = "rgb(161, 0, 0)";
@@ -21,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
             loginError.style.width = "100%";
             loginError.style.borderRadius = "20px";
             loginError.style.margin = "auto";
-        } else if (username === "" || password === "") {
+        } else if (username < 1) {
             // Failed login
             loginError.textContent = "Invalid login info.";
             loginError.style.color = "rgb(161, 0, 0)";
@@ -30,17 +29,55 @@ document.addEventListener("DOMContentLoaded", function () {
             loginError.style.width = "100%";
             loginError.style.borderRadius = "20px";
             loginError.style.margin = "auto";
+            usernameInput.focus();
+        } else if (password < 1) {
+            // Failed login
+            loginError.textContent = "Invalid login info.";
+            loginError.style.color = "rgb(161, 0, 0)";
+            loginError.style.backgroundColor = "white";
+            loginError.style.padding = "15px";
+            loginError.style.width = "100%";
+            loginError.style.borderRadius = "20px";
+            loginError.style.margin = "auto";
+            passwordInput.focus();
         } else {
-            // Successful login
-            loginError.textContent = "Login successful!";
-            loginError.style.color = "green";
-            // loginError.style.backgroundColor = "white";
-            // loginError.style.padding = "15px";
-            // loginError.style.width = "60%";
-            // loginError.style.borderRadius = "20px";
-            // loginError.style.margin = "auto";
-            form.reset();
+            document.getElementById("link").click();
         }
+
+        //WORKS BUT NOT THE BEST
+        // For demonstration purposes, consider 'username' and 'password' as valid
+        // if (username === "" && password === "") {
+        //     // Failed login
+        //     loginError.textContent = "Invalid login info.";
+        //     loginError.style.color = "rgb(161, 0, 0)";
+        //     loginError.style.backgroundColor = "white";
+        //     loginError.style.padding = "15px";
+        //     loginError.style.width = "100%";
+        //     loginError.style.borderRadius = "20px";
+        //     loginError.style.margin = "auto";
+        // } else if (username === "" || password === "") {
+        //     // Failed login
+        //     loginError.textContent = "Invalid login info.";
+        //     loginError.style.color = "rgb(161, 0, 0)";
+        //     loginError.style.backgroundColor = "white";
+        //     loginError.style.padding = "15px";
+        //     loginError.style.width = "100%";
+        //     loginError.style.borderRadius = "20px";
+        //     loginError.style.margin = "auto";
+        // }
+        
+        //ERRORS
+        // } else {
+        //     // Successful login
+        //     loginError.textContent = "Login successful!";
+        //     loginError.style.color = "green";
+        //     // loginError.style.backgroundColor = "white";
+        //     // loginError.style.padding = "15px";
+        //     // loginError.style.width = "60%";
+        //     // loginError.style.borderRadius = "20px";
+        //     // loginError.style.margin = "auto";
+        //     form.reset();
+        // }
 
     });
     usernameInput.addEventListener("input", function () {

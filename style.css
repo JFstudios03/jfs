@@ -84,6 +84,11 @@ body{
     border-radius: 10px;
 }
 
+.hey {
+    width: 80%;
+    text-align: center;
+}
+
 .hero-search a{
     text-decoration: none;
     color: white;
